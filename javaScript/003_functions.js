@@ -56,7 +56,7 @@ function getArrayValue(getValue){
 //console.log(getArrayValue(myArray));
 console.log(getArrayValue([800, 366, "Fatima", 900]));
 
-const fun = function(){     // () => {}
+const fun = function(){     // anonymous
         console.log("oye mister");
 }
 //fun();
