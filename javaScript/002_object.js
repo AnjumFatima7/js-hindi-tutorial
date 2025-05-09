@@ -8,7 +8,7 @@ User.name = "soyal"
 User.email = "soyalkhan@gmail.com"
 User.age = 21
 
-console.log(User);
+//console.log(User);
 
 const tindderUser = {
     name : {
@@ -27,7 +27,21 @@ const obj2 = {'name': "Anjum Fatima"};
 const obj3 = {obj1, obj2};
 const obj4 = Object.assign({}, obj1, obj2);
 const obj5 = {...obj1, ...obj2}
-console.log(obj3);
-console.log(obj4);
-console.log(obj5);
+// console.log(obj3);
+// console.log(obj4);
+// console.log(obj5);
+
+
+// console.log(Object.keys(User));
+// console.log(Object.values(User));
+// console.log(Object.entries(User));
+
+const Obj = {
+    fullName : "Soyal Khan",
+    city : "Ajmer",
+    location : "Loha Khan"
+}
+
+const {fullName : Name } = Obj;
+console.log(Name);
 
