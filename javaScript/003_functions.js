@@ -59,5 +59,16 @@ console.log(getArrayValue([800, 366, "Fatima", 900]));
 const fun = function(){     // () => {}
         console.log("oye mister");
 }
+//fun();
 
-fun();
+
+function test_fun(){
+    console.log(typeof arguments);
+    
+    console.log(`length of agrguments are: ${arguments.length}`);
+    for(index in arguments){
+        console.log(`${index} => ${arguments[index]}`);
+    }   
+}
+test_fun(12,3,4,45,6677,78,5);
+
