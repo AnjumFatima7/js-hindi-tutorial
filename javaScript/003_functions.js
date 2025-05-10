@@ -5,7 +5,7 @@ function myName(){
     // console.log("U");
     // console.log("M");
 }
-myName();
+//myName();
 
 function addTwoNumbers(number1, number2){
     //console.log(number1 + number2);
@@ -70,5 +70,5 @@ function test_fun(){
         console.log(`${index} => ${arguments[index]}`);
     }   
 }
-test_fun(12,3,4,45,6677,78,5);
+//test_fun(12,3,4,45,6677,78,5);
 
