@@ -8,4 +8,9 @@
 
 ( (name) => {
     console.log(`DB CONNECTED TWO ${name}`);
-} )('hitesh')
+} )('hitesh');
+
+(() => {
+    console.log(this);
+})();
+
